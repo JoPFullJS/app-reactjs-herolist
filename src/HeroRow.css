@@ -1,0 +1,61 @@
+.HeroRow-out-of-stock {
+  color: red;
+}
+.intitule-services {
+    width: 267px;
+    text-align: center;
+    margin-top: 40px;
+}
+.table {
+    display: inline-table;
+}
+.intitule-services>header>h4 {
+    color: #208387;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: #4E4F62;
+    padding: 0px 25px;
+    text-align: center;
+}
+.link-travx a {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    bottom: 20px;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #208387;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.link-sup a {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    bottom: 20px;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #F75D59;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+	margin-top: 5px;
+    cursor: pointer;
+}
+.interaction:hover{
+	background-color: #8ED1D4;
+}
+.interaction:hover p,.interaction:hover header h4{
+	color: #0E6A6E !important;
+}
+

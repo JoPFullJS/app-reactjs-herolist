@@ -1,0 +1,10 @@
+.no-visible{
+	display: none;
+}
+.visible{
+	display:block;
+}
+.App{
+	width: 900px;
+	margin: auto;
+}
