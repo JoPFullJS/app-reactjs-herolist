@@ -20,7 +20,7 @@ class Filters extends Component {
       <form>
         <input 
           type="text" 
-          placeholder="Search..." 
+          placeholder="Recherchez un Hero du Dev..." 
           name="filterText"
           value={this.props.filterText}
           onChange={this.handleChange}
@@ -33,7 +33,7 @@ class Filters extends Component {
             onChange={this.handleChange}
         />
 
-          &nbsp;Domaine(s) en populaire
+          &nbsp;Domaine(s) populaire
         </p>
       </form>
     );

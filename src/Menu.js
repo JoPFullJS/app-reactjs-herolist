@@ -10,14 +10,14 @@ class Menu extends Component{
 				<button
 					className={this.props.changeHero === true ? 'menuSelect' : 'menuNoSelect'}
 					onClick={this.props.onHero}
-				>Liste des Heros</button>
+				>Liste des Heros du Dev</button>
 				<button
 					className={this.props.changeForm === true ? 'menuSelect' : 'menuNoSelect'}
 					onClick={this.props.onForm}
-				>Ajouter un Heor</button>
+				>Ajouter un Hero du Dev</button>
 				<button
 					disabled={this.props.changeDetaille}
-				>Détaille du Hero</button>
+				>Détaille de ce hero du domaine</button>
 			</div>
 		);
 	}

@@ -20,7 +20,7 @@ class HeroRow extends Component {
         <header>
           {pseudo}
         </header>
-        <p className="description">Maitrise : <strong>{this.props.hero.maitrise}</strong></p>
+        <p className="description">Maitrise : <strong>{this.props.hero.maitrise}</strong>/10</p>
         <div className="link-travx"><a title="{this.props.hero.pseudo}" onClick={this.affiche}>En savoir plus !</a></div>
         <div className="link-sup"><a title="supprimer" onClick={this.destroy}>Supprimer !</a></div>
       </article>
